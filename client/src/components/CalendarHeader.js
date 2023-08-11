@@ -1,9 +1,9 @@
 import './css/CalendarHeader.css';
 
-const CalendarHeader = () => {
+const CalendarHeader = ({ calendarName }) => {
   return (
     <div className="CalendarHeader">
-      "Hello from Header"
+      <h1 className="text-center">{calendarName}</h1>
     </div>
   );
 }
